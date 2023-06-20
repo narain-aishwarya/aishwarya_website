@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aishwarya Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Aishwarya</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <!--<li class="nav__item">-->
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class='bx bx-home-alt nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>About
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-file nav__icon'></i>Skills
+                                
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-certification nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#resume" class="nav__link">
+                                <i class='bx bx-photo-album nav__icon'></i>Resume    
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-dots nav__icon'></i>Contact Me
+                            </a>
+                        </li>
+                    <!--</li>-->
+                </ul>
+                <i class='bx bx-x nav__close' id = "nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+
+                <!--Theme Change button-->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bxs-widget'></i>
+                </div>
+            </div>
+        </nav>  
+    </header>
+    
+    <!--Main-->
+    <main class="main">
+        <!--Home-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__container grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/aishwarya-narain-10/" class="home__social-icon">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+
+                        <a href="#" class="home__social-icon">
+                            <i class='bx bxl-codepen'></i>
+                        </a>
+
+                        <a href="https://github.com/narain-aishwarya/narain-aishwarya" class="home__social-icon">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                    <div class="home__img"></div>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I am Aishwarya</h1>
+                    <h3 class="home__subtitle">Software Engineer</h3>
+
+                    <p class="home__description">
+                        Hey <i class='bx bxs-hand bx-tada' ></i> My name is Aishwarya Narain , I'm an UnderGraduate Student pursuing B.Tech in Computer Science and Engineering. 
+                    </p>
+                    <a href="#contact" class="button button--flex">
+                        Contact Me <i class='bx bx-chevrons-right' button__icon></i>
+                    </a>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class='bx bx-mouse home__scroll-mouse'></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class='bx bx-down-arrow-alt home__scroll-arrow'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--ABOUT-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Introduction</span>
+
+            <div class="about__container container grid">
+                <!--<img src="" alt="" class="about__img">-->
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Currently a third-year B.Tech student in Computer Science, I have a strong passion for programming and a proven
+                        track record of success in project-based coursework using languages such as Java and C++. In addition, as a
+                        member of my school's debate team, I have honed my public speaking and persuasive communication skills. I am
+                        highly motivated to apply my skills and experience to contribute to the growth and success of a dynamic
+                        organization in the tech industry. My hobbies include Graphic Designing, Reading books, Learning new AI
+                        technologies . I have full Professional proficiency in speaking in English and Hindi.
+                        I have knowledge in Web-development technologies - HTML, CSS, JAVASCRIPT.<br>
+                        I have experience in programming languages such as Java and C++. In addition I have entry-level knowledge of BlockChain Technology and UI design.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">Fresher</span>
+                            <span class="about__info-name">Year <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Skills <br> in different domains</span>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assetes/Resume.pdf" class="button button--flex">
+                            Download CV <i class='bx bx-download' button__icon></i>
+                            </a>
+                        </div >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle"> My Technical level</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class='bx bx-code-curly skills__icon'></i>
+                            <div>
+                                <h1 class="skills__titles">Frontend developer</h1>
+                                <span class="skills__subtitle">0-1 year</span>
+                            </div>
+
+                            <i class='bx bx-chevron-down skills__arrow'></i>
+                        </div>
+
+                        
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML
+                                    </h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS
+                                    </h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript
+                                    </h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React
+                                    </h3>
+                                    <span class="skills__number">35%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div>                                          <!--Skills 2-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <!--<i class='bx bxs-keyboard skills__icon'></i>-->
+                            <div>
+                                <h1 class="skills__title">Programming </h1>
+                                <span class="skills__subtitle">More than 3 years </span>
+                            </div>
+    
+                            <i class='bx bx-chevron-down skills__arrow'></i>
+                        </div>
+
+                        
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JAVA
+                                    </h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C++
+                                    </h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__cpp"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PYTHON
+                                    </h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>               
+                <!--Skills 3-->
+                <div>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class='bx bx-palette skills__icon'></i>
+                            <div>
+                                <h1 class="skills__title">Designer</h1>
+                                <span class="skills__subtitle">Beginner</span>
+                            </div>
+    
+                            <i class='bx bx-chevron-down skills__arrow'></i>
+                        </div>
+
+                        
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma
+                                    </h3>
+                                    <span class="skills__number">30%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Canva
+                                    </h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__canva"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Microsoft-Designer
+                                    </h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__microsoft-designer"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                
+            </div>>    
+        </section>
+        
+
+        <!--QUALIFICATION-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My Educational Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button botton--flex qualification__active" data-target="#education">
+                        <i class='bx bxs-graduation qualification__icon'></i>
+                        Education
+                    </div>
+
+                    
+                    <div class="qualification__button botton--flex" data-target = "#work">
+                        <i class='bx bx-briefcase qualification__icon'></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--Content 1-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--Qualification 1-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    Computer Science
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Gyan Ganga College of Technology
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class='bx bx-calendar'></i>
+                                    2020-2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        
+                        <!--Qualification 2-->
+                        <div class="qualification__data">
+                            <div></div>
+                            
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            
+                            <div>
+                                <h3 class="qualification__title">
+                                    High School - 12th Standard
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Holy-Light Childrens Academy
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class='bx bx-calendar'></i>
+                                    2018-2020
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!--Qualification 3-->
+                        <div class="qualification__data">
+                            
+                            <div>
+                                <h3 class="qualification__title">
+                                    Middle-School
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    St.Joseph's Convent Sr.Sec.School
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class='bx bx-calendar'></i>
+                                    2010-2018
+                                </div>
+                            </div>  
+                                 
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!--<span class="qualification__line"></span> -->
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <!--Content 2-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--Qualification 1 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    Newton School Coding Club
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Content and PR Core Lead
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class='bx bx-calendar'></i>
+                                    2022-2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        
+                        <!--Qualification 2 -->
+                        <div class="qualification__data">
+                            <div></div>
+                            
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            
+                            <div>
+                                <h3 class="qualification__title">
+                                    SIH - Inter College Compatition
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Gyan Ganga College of Technology
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class='bx bx-calendar'></i>
+                                    2021-2022
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!--Qualification 3-->
+                        <div class="qualification__data">
+                            
+                            <div>
+                                <h3 class="qualification__title">
+                                    UDAYAM E-CELL
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    IIT - Bombay
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class='bx bx-calendar'></i>
+                                    2021-2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!--<span class="qualification__line"></span>
+                            </div>-->    
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="certificates section" id="certificates">
+            <h2 class="section__title">Certificates</h2>
+            <span class="section__subtitle">Certificates I have Earned</span>
+
+            <div class="certificates__container container grid">
+                <!--Certificate 1-->
+                <div class="certificates__content">
+                    <div>
+                        <i class='bx bxl-aws certificates__icon'></i>
+                        <h3 class="certificates__title">AWS <br> Cloud Computing</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link certificates__button">
+                        View Certificates
+                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                    </span>
+                    <div class="certificates__modal">
+                        <div class="certificates__modal-content">
+                            <h4 class="certificates__modal-title">AWS <br> Cloud Computing</h4>
+                            <i class='bx bx-x certificates__modal-close'></i>
+
+                            <ul class="certificates__modal-services grid">
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href="https://www.credly.com/badges/7b138f72-e057-4aa5-ab32-1f31e3e0f11a/public_url">AWS Academy Graduate - AWS Academy Cloud Foundations</a></p>
+                                </li>
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href="https://www.credly.com/badges/45b896ef-c270-4fe4-9090-adad97b1853f/public_url"> AWS Academy Graduate - AWS Academy Cloud Architecting</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--1.16.22-->
+
+                <!--Certificate 2-->
+                <div class="certificates__content">
+                    <div>
+                        <i class='bx bx-expand-horizontal cer certificates__icon'></i>
+                        <h3 class="certificates__title">Cisco <br> Networking </h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link certificates__button">
+                        View Certificates
+                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                    </span>
+                    <div class="certificates__modal">
+                        <div class="certificates__modal-content">
+                            <h4 class="certificates__modal-title">Cisco NetAcad <br> Networking Academy</h4>
+                            <i class='bx bx-x certificates__modal-close'></i>
+
+                            <ul class="certificates__modal-services grid">
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href="https://www.credly.com/badges/2aaf1dac-c3e3-465f-b8be-768d1a173634/public_url">CCNA: Introduction to Networks</a></p>
+                                </li>
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href=" https://www.credly.com/badges/3a083c21-2a2a-4df4-a523-d55d6ba78e9b/public_url">Networking Essentials</a></p>
+                                </li>
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href=" https://www.credly.com/badges/b244b4cb-f45b-4688-8c3a-39ef0f937ceb/public_url">Introduction to Data Science</a></p>
+                                </li>
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href="https://www.credly.com/badges/a40073a8-da96-4904-8d14-6db0f0682edd/public_url
+                                        ">Networking Academy Learn-A-Thon 2023</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Certificate 3-->
+                <div class="certificates__content">
+                    <div>
+                        <i class='bx bx-pencil certificates__icon'></i>
+                        <h3 class="certificates__title">AICTE <br> Internships</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link certificates__button">
+                        View Certificates
+                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                    </span>
+                    <div class="certificates__modal">
+                        <div class="certificates__modal-content">
+                            <h4 class="certificates__modal-title">AICTE <br> Internships</h4>
+                            <i class='bx bx-x certificates__modal-close'></i>
+
+                            <ul class="certificates__modal-services grid">
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href="#">AWS virtual cloud internship</a></p>
+                                </li>
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href="#">RPA: Virtual internship</a></p>
+                                </li>
+                                <li class="certificates__modal-services">
+                                    <i class='bx bx-check-circle certificates__modal-icon'></i>
+                                    <p><a href="#">Juniper : Virtual internship</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--RESUME-->
+        <section class="resume section" id="resume">
+            <h2 class="section__title">Resume</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="resume__container container">
+                <div>
+                    <!--Resume content 1-->
+                    <div class="resume__content grid">
+                        <img src="" alt="" class="resume__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="resume__title">Expense Tracking Website</h3>
+                            <p class="resume__description">
+                                This is a two stage project. The first stage is a simple expense tracking website build with HTML,CSS and JavaScript. <br>
+                                The second stage is an advance version of the above website , will be build using MERN Stack.
+                            </p>
+                            <a href="#" class="button button--flex button--small resume__button">
+                                Github
+                                <i class='bx bx-right-arrow-alt button__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Resume content 2-->
+                    <div class="resume__content grid">
+                        <img src="assetes/travel.jpeg" alt="travel_img" class="resume__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="resume__title">Traveling Website</h3>
+                            <p class="resume__description">
+                                This is a Traveling Website. The website is developed using HTML5, CSS3 and JavaScript. <br>
+                                Traveling is all about apreciating nature and having Good time with friends and family.
+                            </p>
+                            <a href="#" class="button button--flex button--small resume__button">
+                                Github
+                                <i class='bx bx-right-arrow-alt button__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Resume content 3-->
+                    <div class="resume__content grid">
+                        <img src="" alt="" class="resume__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="resume__title">Game Development</h3>
+                            <p class="resume__description">
+                                This is a repository , in github, which consists of some basics game projects. <br> These projects are build using HTML, CSS, and JavaScript frameworks such as Three.js.
+                            </p>
+                            <a href="#" class="button button--flex button--small resume__button">
+                                Github
+                                <i class='bx bx-right-arrow-alt button__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECT IN MIND-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Open to Work</h2>
+                        <p class="project__description">I am currently open to work for: Frontend Development. <br> SEO internship <br> and Technical Role for freshers,</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class='bx bx-envelope project__icon button__icon'></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT ME-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Reach Out</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class='bx bx-phone contact__icon'></i>
+
+                        <div>
+                            <h3 class="contact__title">Write Me</h3>
+                            <span class="contact__subtitle">XXXXX-XXXXX</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class='bx bxl-gmail contact__icon'></i>
+
+                        <div>
+                            <h3 class="contact__title">Gmail</h3>
+                            <span class="contact__subtitle">aishwaryanarain01@gamil.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class='bx bx-map contact__icon'></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Jabalpur, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Work</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="" class="button button--flex">
+                            Send Message
+                            <i class='bx bx-message-dots button__icon'></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Aishwarya</h1>
+                    <span class="footer__subtitle">Software Engineer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#certificates" class="footer__link">Certificates</a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="footer__link">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact </a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/aishwarya-narain-10/" target="_blank" class="footer__socials">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__socials">
+                        <i class='bx bxl-codepen'></i>
+                    </a>
+
+                    <a href="https://github.com/narain-aishwarya/narain-aishwarya" target="_blank" class="footer__socials">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Aishwarya_Narain.  All right reserved</p>
+        </div>
+    </footer>
+
+    <!--Scroll-Up-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
